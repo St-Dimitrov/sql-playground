@@ -6,7 +6,7 @@
 */
 
 SELECT * FROM public.employees
-Order BY first_name, last_name DESC;
+ORDER BY first_name, last_name DESC;
 
 /*
 * DB: Employees
@@ -15,7 +15,7 @@ Order BY first_name, last_name DESC;
 */
 
 SELECT * FROM public.employees
-Order BY birth_date DESC;
+ORDER BY birth_date DESC;
 
 /*
 * DB: Employees
@@ -25,4 +25,4 @@ Order BY birth_date DESC;
 
 SELECT * FROM public.employees
 WHERE first_name LIKE 'K%'
-Order BY hire_date DESC;
+ORDER BY hire_date DESC;
