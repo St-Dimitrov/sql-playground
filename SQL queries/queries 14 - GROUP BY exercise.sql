@@ -1,5 +1,3 @@
-
-  
 /*
 *  How many people were hired on any given hire date?
 *  Database: Employees
